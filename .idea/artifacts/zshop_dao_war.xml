@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zshop_dao:war">
+    <output-path>$PROJECT_DIR$/zshop_parent/zshop_dao/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>zshop_dao</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="zshop_parent.war">
+      <element id="artifact" artifact-name="zshop_dao:war exploded" />
+    </root>
+  </artifact>
+</component>

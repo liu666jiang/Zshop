@@ -1,0 +1,40 @@
+package dlnu.liujiang.zshop.pojo;
+
+import java.io.Serializable;
+
+/**
+ * @Auther: liujiang
+ * @Date: 2019/5/7 0007
+ * Description: dlnu.liujiang.zshop.pojo
+ * @version: 1.0
+ */
+public class ProductType implements Serializable {
+
+    private Integer id;
+    private String name;
+    private Integer status;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getStatus() {
+        return status;
+    }
+
+    public void setStatus(Integer status) {
+        this.status = status;
+    }
+}

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zshop_commom:war">
+    <output-path>$PROJECT_DIR$/zshop_parent/zshop_commom/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>zshop_commom</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="zshop_commom.war">
+      <element id="artifact" artifact-name="zshop_commom:war exploded" />
+    </root>
+  </artifact>
+</component>
