@@ -24,7 +24,7 @@ import java.util.List;
 public class ProductTypeServiceImpl implements ProductTypeService {
 
     @Autowired
-   private ProductTypeDao productTypeDao;
+    private ProductTypeDao productTypeDao;
 
     @Transactional(propagation = Propagation.SUPPORTS,readOnly = true)
     @Override
